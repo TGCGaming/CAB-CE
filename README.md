@@ -30,27 +30,7 @@ A modern, powerful, and lightweight code editor with **real PowerShell execution
 
 ## 📸 Screenshot
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  ⬡ CAB CE   File  Edit  Run              [New] [Save] [▶ Run]  │
-├──────────┬──────────────────────────────────────────────────────┤
-│ EXPLORER │  CE test.c    hello.java                             │
-│          ├──────────────────────────────────────────────────────┤
-│ 📁 Open  │  1  public class Main {                              │
-│   Folder │  2      public static void main(String[] args) {     │
-│          │  3          System.out.println("Hello World!");      │
-│ or       │  4      }                                            │
-│          │  5  }                                                │
-│ 📄 New   │                                                      │
-│   File   ├──────────────────────────────────────────────────────┤
-│          │  💻 TERMINAL — PowerShell                            │
-│          │  PS> java hello.java                                 │
-│          │  Hello World!                                        │
-│          │  PS> _                                                │
-├──────────┴──────────────────────────────────────────────────────┤
-│ Java  Ln 1, Col 1  |  hello.java (unsaved)  |  💻 Terminal      │
-└─────────────────────────────────────────────────────────────────┘
-```
+![CAB CE Screenshot](https://github.com/TGCGaming/CAB-CE/blob/main/assets/CAB%20CE%20screenshot%20Java.png?raw=true)
 
 ---
 

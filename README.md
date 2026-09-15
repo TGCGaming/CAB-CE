@@ -6,7 +6,7 @@ A modern, powerful, and lightweight code editor with **real PowerShell execution
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourname/cab-ce/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows-0078D6.svg)](https://github.com/yourname/cab-ce)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-PUM%201.0-orange.svg)](LICENSE)
 [![Electron](https://img.shields.io/badge/Electron-28-47848F.svg)](https://electronjs.org)
 [![Node](https://img.shields.io/badge/Node.js-18%2B-339933.svg)](https://nodejs.org)
 

@@ -269,22 +269,18 @@ The whole UI recolors instantly — editor, panels, terminal, modals.
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **PUM 1.0 License** - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 🙏 Credits
 
-- **CodeMirror** — The editor core
-- **Electron** — Desktop app framework
-- **Express** — Backend server
-- **Font Awesome** — Icons
-- **Winget** — Package installation
+- **CodeMirror** - The editor core
+- **Electron** - Desktop app framework
+- **Express** - Backend server
 
 ---
 
 **Made with ❤️ for developers who want a lightweight, powerful editor**
 
 ⭐ Star this repo if you find it useful!
-
-</div>

@@ -1,6 +1,6 @@
 # ⬡ CAB CE
 
-### Creative Advanced Builder — Code Editor
+### Creative Advanced Builder - Code Editor
 
 A modern, powerful, and lightweight code editor with **real PowerShell execution**, support for **30+ programming languages**, an integrated terminal, and a full extension marketplace.
 
@@ -16,34 +16,55 @@ A modern, powerful, and lightweight code editor with **real PowerShell execution
 
 ## ✨ Features
 
-- 🚀 **Real code execution** — Runs your code through actual PowerShell, not simulations
-- 🌐 **30+ languages** — Python, JavaScript, C, C++, C#, Java, Rust, Go, Ruby, PHP, Swift, Kotlin, Dart, Lua, Julia, Pascal, and more
-- 🎨 **Custom languages** — VisualZenta, Native, Pie, Z, K# with dedicated syntax highlighting
-- 💻 **Integrated PowerShell terminal** — Type commands directly, see real output
-- 🧩 **Extension marketplace** — Install compilers and runtimes via `winget` with a trust dialog
-- 📁 **File explorer** — Open folders, browse trees, switch files without losing context
+- 🚀 **Real code execution** - Runs your code through actual PowerShell, not simulations
+- 🌐 **30+ languages** - Python, JavaScript, C, C++, C#, Java, Rust, Go, Ruby, PHP, Swift, Kotlin, Dart, Lua, Julia, Pascal, and more
+- 🎨 **Custom languages** - VisualZenta, Native, Pie, Z, K# with dedicated syntax highlighting
+- 💻 **Integrated PowerShell terminal** - Type commands directly, see real output
+- 🧩 **Extension marketplace** - Install compilers and runtimes via `winget` with a trust dialog
+- 📁 **File explorer** - Open folders, browse trees, switch files without losing context
 - 🔍 **Find & replace, formatting, multi-theme** support
-- 💾 **Real file saving** — Uses the File System Access API to save anywhere on disk
-- ⚡ **Zero configuration** — Just double-click the .exe and start coding
+- 💾 **Real file saving** - Uses the File System Access API to save anywhere on disk
+- ⚡ **Zero configuration** - Just double-click the .exe and start coding
 
 ---
 
 ## 📸 Screenshot
 
 ![CAB CE Screenshot](https://github.com/TGCGaming/CAB-CE/blob/main/assets/CAB%20CE%20screenshot%20Java.png?raw=true)
+---
+## Why CAB CE?
 
+Because coding should be simple.
+
+CAB CE was built on one idea: **you shouldn't need a computer science degree to run a line of code.** No setup wizards. No configuration files hidden in folders you've never heard of. No dependency hell. Just open the app, pick a language, and start writing.
+
+Other editors make you hunt for compilers, download installers from sketchy websites, manually edit your system PATH, and restart your terminal three times before anything works. CAB CE skips all of that. The moment you install it, you're ready to code. If something's missing, the Extensions panel installs it for you with a single click and adds it to your PATH automatically, ready to use with no restart required.
+
+**Zero setup.** Never written a line of code before? You get Hello World templates for every language, clear obvious buttons, real-time feedback, and error messages that actually make sense. You can go from "I've never coded" to "I just ran my first program" in under a minute.
+
+**Extensions in one click.** Missing Python? Don't have the Java JDK? Not sure if GCC is installed? Instead of spending 20 minutes in Google, just click 🧩 Extensions, pick the language, and click *"Yes, I Trust It."* CAB CE installs it via `winget`, adds it to your PATH, and refreshes the terminal automatically.
+
+**A terminal that's actually real.** The bottom panel isn't a mockup - it's **real PowerShell**, the same one you'd get from your Start menu. So `dir`, `cd`, `git status`, `npm install`, and `python --version` all work exactly as they should. And when you press **F5** to run your code, the output shows up right there, just as if you typed the command yourself.
+
+**It looks good and feels good.** Dark theme by default, five built-in themes, syntax highlighting for every language, comfortable spacing, and a UI that respects your eyes — no cramped sidebars, no tiny icons, no "why is this button here?" moments.
+
+**Fast, lightweight, and private.** Launches in seconds, never lags, no 2GB install, no accounts, no subscriptions, no telemetry. Your code stays on your machine, and it works offline after the first launch.
+
+**Free forever.** No credit card, no email signup, no 30-day trial, no nag screens, no ads disguised as features. Just a code editor that does its job.
+
+**TL;DR** - CAB CE is what every code editor *should* be: easy to open, easy to learn, easy to run code with. Beginners get a friendly hand-holding start. Experts get every shortcut they already know. And everything in between - compilers, extensions, terminals - is handled for you automatically.
 ---
 
 ## 🚀 Quick Start
 
-### Option 1 — Download the .exe (recommended)
+### Option 1 - Download the .exe (recommended)
 
 1. Go to the [Releases](../../releases) page
 2. Download **CAB CE Setup 1.0.0.exe**
 3. Run the installer → launch **CAB CE** from your Start Menu
 4. Start coding immediately
 
-### Option 2 — Run from source
+### Option 2 - Run from source
 
 ```bash
 # Clone the repo
@@ -57,7 +78,7 @@ npm install
 npm start
 ```
 
-### Option 3 — Run as a web app (no Electron)
+### Option 3 - Run as a web app (no Electron)
 
 ```bash
 npm install
@@ -72,12 +93,12 @@ Then open **http://localhost:3000** in your browser.
 
 ### Basic workflow
 
-1. **Open the app** — Double-click the shortcut or run `npm start`
-2. **Create or open a file** — Click `+ New` or `📂 Open` in the toolbar
-3. **Choose a language** — Pick from the grid (Python, JavaScript, C, etc.)
-4. **Write code** — CodeMirror handles syntax highlighting, autocomplete, and matching brackets
-5. **Run with F5** — Output appears in the built-in terminal
-6. **Save with Ctrl+S** — First save opens a dialog; every subsequent Ctrl+S saves directly
+1. **Open the app** - Double-click the shortcut or run `npm start`
+2. **Create or open a file** - Click `+ New` or `📂 Open` in the toolbar
+3. **Choose a language** - Pick from the grid (Python, JavaScript, C, etc.)
+4. **Write code** - CodeMirror handles syntax highlighting, autocomplete, and matching brackets
+5. **Run with F5** - Output appears in the built-in terminal
+6. **Save with Ctrl+S** - First save opens a dialog; every subsequent Ctrl+S saves directly
 
 ### Keyboard shortcuts
 
@@ -143,16 +164,11 @@ Every command runs on your actual system. This is not emulated.
 | Batch | `.bat` | `cmd` |
 | PowerShell | `.ps1` | `powershell` |
 | JSON / YAML / Markdown | `.json` `.yaml` `.md` | — |
-
-### Custom languages
-
-| Language | Extension | Description |
-|----------|-----------|-------------|
-| **VisualZenta** | `.vz` | Component-based UI framework |
+| **VisualZenta** | `.vz` | Zenta-based UI framework |
 | **Native** | `.native` | Bridge module system using `nc` compiler |
-| **Pie** | `.pie` | Recipe-based programming |
-| **Z** | `.z` | Zero-based zone language |
-| **K#** | `.k` | Modern object-oriented language |
+| **Pie** | `.pie` | Pi-based programming |
+| **Z** | `.z` | A C coding language offspring |
+| **K#** | `.k` | A language that looks like C# but works like C |
 
 Each ships with a **Hello World template** ready to run.
 
@@ -218,40 +234,6 @@ Browsers can't execute PowerShell directly for security reasons. The Express ser
 
 ---
 
-## 🛠️ Building from Source
-
-### Prerequisites
-
-- **Node.js 18+** — [Download](https://nodejs.org)
-- **Windows 10/11** (for the .exe build)
-- **~500 MB free disk space** (Electron is big)
-
-### Build steps
-
-```bash
-# 1. Install dependencies
-npm install
-
-# 2. Test the app locally
-npm start
-
-# 3. Build the .exe files
-npm run build-all
-```
-
-Result in `dist/`:
-- `CAB CE Setup 1.0.0.exe` — installer
-- `CAB CE 1.0.0.exe` — portable single file
-
-### Build only one target
-
-```bash
-npm run build            # NSIS installer only
-npm run build-portable   # Portable .exe only
-```
-
----
-
 ## 🎨 Theming
 
 Switch between built-in themes via the top-right dropdown:
@@ -268,44 +250,20 @@ The whole UI recolors instantly — editor, panels, terminal, modals.
 
 ## 💡 Tips & Tricks
 
-- **Multiple files at once** — Open as many tabs as you want
-- **Folder view stays open** — Clicking a file in the tree doesn't lose your folder
-- **Recent files** — Bottom bar shows your 15 most recent
-- **Restore session** — Recent files persist across restarts via localStorage
-- **Run in terminal** — Press F5 or type the run command directly
+- **Multiple files at once** - Open as many tabs as you want
+- **Folder view stays open** - Clicking a file in the tree doesn't lose your folder
+- **Recent files** - Bottom bar shows your 15 most recent
+- **Restore session** - Recent files persist across restarts via localStorage
+- **Run in terminal** - Press F5 or type the run command directly
 
 ---
 
 ## ⚠️ Known Limitations
 
-- **Windows only** — The current build targets Windows. macOS/Linux support would need PATH handling changes in `server.js`
-- **Unsigned .exe** — Windows SmartScreen will warn on first launch. Click **More info → Run anyway**
-- **Internet required on first launch** — CodeMirror and Font Awesome load from CDN
-- **Extensions use winget** — Requires Windows 10 21H2+ with App Installer
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Offline bundling (CodeMirror + Font Awesome locally)
-- [ ] Code signing for the .exe
-- [ ] macOS + Linux builds
-- [ ] Built-in Git panel
-- [ ] AI autocomplete integration
-- [ ] Custom theme creator
-- [ ] Multi-root workspaces
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how:
-
-1. Fork the repo
-2. Create a branch: `git checkout -b feature/my-feature`
-3. Commit your changes: `git commit -m "Add my feature"`
-4. Push: `git push origin feature/my-feature`
-5. Open a Pull Request
+- **Windows only** - The current build targets Windows. macOS/Linux support would need PATH handling changes in `server.js`
+- **Unsigned .exe** - Windows SmartScreen will warn on first launch. Click **More info → Run anyway**
+- **Internet required on first launch** - CodeMirror and Font Awesome load from CDN
+- **Extensions use winget** - Requires Windows 10 21H2+ with App Installer
 
 ---
 

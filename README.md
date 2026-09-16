@@ -46,7 +46,7 @@ Other editors make you hunt for compilers, download installers from sketchy webs
 
 **A terminal that's actually real.** The bottom panel isn't a mockup - it's **real PowerShell**, the same one you'd get from your Start menu. So `dir`, `cd`, `git status`, `npm install`, and `python --version` all work exactly as they should. And when you press **F5** to run your code, the output shows up right there, just as if you typed the command yourself.
 
-**It looks good and feels good.** Dark theme by default, five built-in themes, syntax highlighting for every language, comfortable spacing, and a UI that respects your eyes — no cramped sidebars, no tiny icons, no "why is this button here?" moments.
+**It looks good and feels good.** Dark theme by default, five built-in themes, syntax highlighting for every language, comfortable spacing, and a UI that respects your eyes - no cramped sidebars, no tiny icons, no "why is this button here?" moments.
 
 **Fast, lightweight, and private.** Launches in seconds, never lags, no 2GB install, no accounts, no subscriptions, no telemetry. Your code stays on your machine, and it works offline after the first launch.
 
